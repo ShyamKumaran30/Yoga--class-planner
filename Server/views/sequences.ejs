@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<body>
+    <ul>
+        <% sequences.forEach(function(sequence) { %>
+            <li>Name: <%= sequence.name %>
+            </li>
+            <li>Description: <%= sequence.description %>
+            </li>
+            <li>Benefits: <%= sequence.benefits %>
+            </li>
+            <li>Asanas:
+                <ul>
+                    <% sequence.asanas.forEach(function(asana) { %>
+                        <li>Name: <%= asana.name %>
+                        </li>
+                        <li>Description: <%= asana.description %>
+                        </li>
+                        <li>Benefits:
+                            <ul>
+                                <% asana.benefits.forEach(function(benefit) { %>
+                                    <li><%= benefit %></li>
+                                <% }); %>
+                            </ul>
+                        </li>
+                        <li>Image: <img src="<%= asana.image %>"></li>
+                        <li>Added By: <%= asana.addedByName %>
+                        </li>
+                        <% }); %>
+                </ul>
+            </li>
+            <li>Added By: <%= sequence.addedByName %>
+            </li>
+            <hr>
+            <% }); %>
+    </ul>
+</body>
+
+</html>

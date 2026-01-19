@@ -1,0 +1,43 @@
+.box{
+    width: 45vw;
+    height: 13vh;
+    background-color: #0077b6;
+    margin: 10px 20px;
+    cursor: pointer;
+    box-shadow: 10px 5px 3px;
+}
+.box:hover{
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(90deg,white  50%,#caf0c8 50%); 
+    
+}
+.text-area{
+    align-items: center;
+    justify-content: center;
+    display: flex   ;
+}
+.text-area h1{
+    font-size: 2.5vmax;
+}
+.box a{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 13vh;
+text-decoration: none;
+font-size: 2vw;
+color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+
+    text-decoration: none !important;
+}
