@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0; /* Light background to contrast with the green color scheme */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
+  }
+  
+  .logo {
+    max-width: 75px; /* Adjust based on the size of your logo */
+    max-height: 75px;
+  }
+  
+  .header-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-menu li {
+    margin-left: 20px;
+  }
+  
+  .header-menu li a {
+    text-decoration: none;
+    color: #333; /* Dark text for contrast against the light background */
+    font-weight: 500;
+  }
+  
+  .header-menu li a:hover {
+    color: #4CAF50; /* Green color to match the brand's theme for hover effects */
+  }
+  

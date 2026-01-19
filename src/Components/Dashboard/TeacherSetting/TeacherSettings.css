@@ -1,0 +1,44 @@
+.teacher-settings-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.teacher-settings-container h2{
+    font-weight: bolder;
+    color: #898dbf;
+}
+
+.teacher-settings-container form{
+    width: 550px;
+    margin: auto;
+}
+
+.teacher-settings-container form *{
+    font-weight: bold;
+}
+
+.teacher-settings-container form label{
+    font-size: 18px;
+    color: #8f9096;
+}
+
+.teacher-settings-container form .form-control, .teacher-settings-container form .form-control:focus{
+    border-color: transparent;
+    border-bottom-color: #bebcc1;
+    box-shadow: none;
+}
+
+.teacher-settings-container form .btn{ 
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+.teacher-settings-container .btn.btn-default{
+    background: #ebebeb;
+    color: #8f9096;
+}
+
+.teacher-settings-container .btn.btn-primary{
+    background: #6c63ff;
+    color: white;
+}
